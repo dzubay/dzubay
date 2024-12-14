@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Magazin_3ModelContainer" CdmEntityContainer="Magazin_3Entities">
+    <EntitySetMapping Name="Buyers">
+      <EntityTypeMapping TypeName="Magazin_3Model.Buyer">
+        <MappingFragment StoreEntitySet="Buyer">
+          <ScalarProperty Name="Id_buyer" ColumnName="Id_buyer" />
+          <ScalarProperty Name="Id_Buyer_category" ColumnName="Id_Buyer_category" />
+          <ScalarProperty Name="Id_Contact_details" ColumnName="Id_Contact_details" />
+          <ScalarProperty Name="Id_Buyer_status" ColumnName="Id_Buyer_status" />
+          <ScalarProperty Name="Login_buyer" ColumnName="Login_buyer" />
+          <ScalarProperty Name="Password_buyer" ColumnName="Password_buyer" />
+          <ScalarProperty Name="Discount_buyer" ColumnName="Discount_buyer" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address_buyer" ColumnName="Address_buyer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
